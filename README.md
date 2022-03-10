@@ -1,1 +1,3 @@
-# tubitak1
+My tubitak project
+author = grasiand
+thx <3
