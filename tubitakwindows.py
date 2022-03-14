@@ -6,16 +6,23 @@ bb)Binary Kodları Nasıl Çalışır?
 cc)Temizle
 Binary Kodunu Görmek İçin Klavye'den Bir Tuşa Basınız.
 """)
-vur = input("Lütfen yapacağınızı seçiniz -> ")
-   os.system("color a")
+
+vur = input("Lütfen yapacağınızı seçiniz ->")
+print("  ")
+print("  ")
 
 if vur == "aa":
+   os.system("color a")
    print("İkili Kod (Binary), Gottfried Leibniz tarafından icat edilen ve yalnızca iki sayıdan oluşan bir sayı sistemidir. ")
-
+   print("  ")
+   print("  ")
+   
 if vur == "bb":
 
    print("0’lar ve 1’ler sırasıyla KAPALI veya AÇIK’ı temsil eder. Aslında Matematik’teki mantık konusunu örnek verebiliriz. Bir transistörde “0” elektrik akışı olmadığını, “1” elektriğin akmasına izin verildiğini gösterir. Bu şekilde, sayılar hesaplamaya izin verecek şekilde hesaplama cihazının içinde fiziksel olarak temsil edilir. Totoloji ve çelişki mantığıyla oldukça benzer olduğunu söyleyebiliriz.")
-
+   print("  ")
+   print("  ")
+   
 if vur == "A":
    print("A harfinin Binary kodu: 01000001")
    
@@ -136,166 +143,166 @@ if vur == "8":
 if vur == "9":
     print("9 harfinin Binary Kodu: 00111001")
 
-    if vur == "q":
+if vur == "q":
         print("q harfinin Binary Kodu: 01110001")
 
-    if vur == "w":
+if vur == "w":
         print("w harfinin Binary Kodu: 01110111")
 
-    if vur == "e":
+if vur == "e":
         print("e harfinin Binary Kodu: 01100101")
    
-    if vur == "r":
+if vur == "r":
         print("r harfinin Binary Kodu: 01110010")
    
-    if vur == "t":
+if vur == "t":
         print("t harfinin Binary Kodu: 01110100")
     
-    if vur == "y":
+if vur == "y":
         print("y harfinin Binary Kodu: 01111001")
    
-    if vur == "u":
+if vur == "u":
         print("u harfinin Binary Kodu: 01110101")
    
-    if vur == "ı":
+if vur == "ı":
         print("ı harfinin Binary Kodu: 11000100 10110001")
    
-    if vur == "o":
+if vur == "o":
         print("o harfinin Binary Kodu: 01101111")
    
-    if vur == "p":
+if vur == "p":
         print("p harfinin Binary Kodu: 01110000")
    
-    if vur == "ğ":
+if vur == "ğ":
         print("ğ harfinin Binary Kodu: 11000100 10011111")
    
-    if vur == "ü":
+if vur == "ü":
         print("ü harfinin Binary Kodu: 11000011 10111100")
    
-    if vur == "a":
+if vur == "a":
         print("a harfinin Binary Kodu: 01100001")
    
-    if vur == "s":
+if vur == "s":
         print("s harfinin Binary Kodu: 01110011")
    
-    if vur == "d":
+if vur == "d":
         print("d harfinin Binary Kodu: 01100100")
    
-    if vur == "f":
+if vur == "f":
         print("f harfinin Binary Kodu: 01100110")
    
-    if vur == "g":
+if vur == "g":
         print("g harfinin Binary Kodu: 01100111")
    
-    if vur == "h":
+if vur == "h":
         print("h harfinin Binary Kodu: 01101000")
    
-    if vur == "j":
+if vur == "j":
         print("j harfinin Binary Kodu: 01101010")
    
-    if vur == "k":
+if vur == "k":
         print("k harfinin Binary Kodu: 01101011")
    
-    if vur == "l":
+if vur == "l":
         print("l harfinin Binary Kodu: 01101100")
    
-    if vur == "ş":
+if vur == "ş":
         print("ş harfinin Binary Kodu: 11000101 10011111")
    
-    if vur == "i":
+if vur == "i":
         print("i harfinin Binary Kodu: 01101001")
    
-    if vur == ",":
+if vur == ",":
         print(", harfinin Binary Kodu: 00101100")
    
-    if vur == "z":
+if vur == "z":
         print("z harfinin Binary Kodu: 01111010")
    
-    if vur == "x":
+if vur == "x":
         print("x harfinin Binary Kodu: 01111000")
    
-    if vur == "c":
+if vur == "c":
         print("c harfinin Binary Kodu: 01100011")
    
-    if vur == "v":
+if vur == "v":
         print("v harfinin Binary Kodu: 01110110")
    
-    if vur == "b":
+if vur == "b":
         print("b harfinin Binary Kodu: 01100010")
    
-    if vur == "n":
+if vur == "n":
         print("n harfinin Binary Kodu: 01101110")  
 
-    if vur == "m":
+if vur == "m":
         print("m harfinin Binary Kodu: 01101101")  
         
-    if vur == "ö":
+if vur == "ö":
         print("ö harfinin Binary Kodu: 11000011 10110110")  
         
-    if vur == "ç":
+if vur == "ç":
         print("ç harfinin Binary Kodu: 11000011 10100111")  
         
-    if vur == ".":
+if vur == ".":
         print(". harfinin Binary Kodu: 00101110")  
         
-    if vur == "!":
+if vur == "!":
         print("! harfinin Binary Kodu: 00100001")  
  
-    if vur == "'":
+if vur == "'":
         print("' harfinin Binary Kodu: 00100111")  
  
-    if vur == "^":
+if vur == "^":
         print("^ harfinin Binary Kodu: 01011110")  
  
-    if vur == "#":
+if vur == "#":
         print("# harfinin Binary Kodu: 00100011")   
  
-    if vur == "+":
+if vur == "+":
         print("+ harfinin Binary Kodu: 00101011")  
  
-    if vur == "$":
+if vur == "$":
         print("$ harfinin Binary Kodu: 00100100")  
  
-    if vur == "%":
+if vur == "%":
         print("% harfinin Binary Kodu: 00100101")  
  
-    if vur == "&":
+if vur == "&":
         print("& harfinin Binary Kodu: 00100110")  
  
-    if vur == "/":
+if vur == "/":
         print("/ harfinin Binary Kodu: 00101111")  
  
-    if vur == "(":
+if vur == "(":
         print("( harfinin Binary Kodu: 00101000")  
  
-    if vur == ")":
+if vur == ")":
         print(") harfinin Binary Kodu: 00101001")  
  
-    if vur == "[":
+if vur == "[":
         print("[ harfinin Binary Kodu: 01011011")  
  
-    if vur == "]":
+if vur == "]":
         print("] harfinin Binary Kodu: 01011101")  
  
-    if vur == "=":
+if vur == "=":
         print("= harfinin Binary Kodu: 00111101")  
  
-    if vur == "}":
+if vur == "}":
         print("} harfinin Binary Kodu: 01111101")  
  
-    if vur == "?":
+if vur == "?":
         print("? harfinin Binary Kodu: 00111111")  
  
-    if vur == "*":
+if vur == "*":
         print("* harfinin Binary Kodu: 00101010")  
  
-    if vur == "\ ":
+if vur == "\ ":
         print("\ harfinin Binary Kodu: 01011100")   
  
-    if vur == "-":
+if vur == "-":
         print("- harfinin Binary Kodu: 00101101")  
  
-    if vur == "_":
+if vur == "_":
         print("_ harfinin Binary Kodu: 01011111")  
  
      
